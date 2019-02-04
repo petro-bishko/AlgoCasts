@@ -60,4 +60,6 @@ function matrix(n) {
   return results;
 }
 
+console.log(matrix(3)); // TODO remove console.log
+
 module.exports = matrix;
