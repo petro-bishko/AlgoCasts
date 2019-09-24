@@ -32,5 +32,17 @@ function capitalize(str) {
 	return result;
 }
 
+function capitalizeTow(str) {
+	const arr = [];
+	
+	for (let el of str.split(' ')) {
+		arr.push(el[0].toUpperCase() + el.slice(1));
+	}
+	
+	return arr.join(' ');
+}
+
+console.log(capitalizeTow('hello it work')); // TODO remove console.log
+
 console.log(capitalize('look, it is working!')); // TODO remove console.log
 module.exports = capitalize;

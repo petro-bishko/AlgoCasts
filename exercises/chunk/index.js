@@ -36,4 +36,4 @@ function chunk(array, size) {
 
 console.log(chunk([1, 2, 3, 4], 2)); // TODO remove console.log
 
-module.exports = chunk;
+// module.exports = chunk;
